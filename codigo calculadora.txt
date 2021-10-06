@@ -14,15 +14,42 @@ Widget build(BuildContext context) {
       title: 'Título de la aplicación',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Titulo del Appbar'),
+          title: Text('Calculadora'),
+         
         ),
         body: Column(
+
+
+
+
+
+
           children: [
-                Text("hola"),
 
-              
 
-               Container(
+            Row(
+              children: [
+                 Container(
+                        height: 50,
+                      width: 40,
+                      
+                      ),
+              ],
+            ),
+
+
+
+                Row(
+
+                  
+
+
+                  children: [
+
+
+                     
+
+                       Container(
                  
                  
 
@@ -38,8 +65,68 @@ Widget build(BuildContext context) {
                           imprimir("estoy imprimiendo!!");
                           print('hola');
                         },
-                        child: const Text('!!', style: TextStyle(fontSize: 28)),
+                        child: const Text('1', style: TextStyle(fontSize: 28)),
+                      )))),   Container(
+                 
+                 
+
+
+                      height: 50,
+                      width: 40,
+                      margin: EdgeInsets.all(0.5),
+                      // color: Colors.black,
+                      child: Center(
+                          child: ButtonTheme(
+                              child: RaisedButton(
+                        onPressed: () {
+                          imprimir("estoy imprimiendo!!");
+                          print('hola');
+                        },
+                        child: const Text('1', style: TextStyle(fontSize: 28)),
                       ))))
+                  ],
+                ),
+ Row(
+                  children: [
+                       Container(
+                 
+                 
+
+
+                      height: 50,
+                      width: 40,
+                      margin: EdgeInsets.all(0.5),
+                      // color: Colors.black,
+                      child: Center(
+                          child: ButtonTheme(
+                              child: RaisedButton(
+                        onPressed: () {
+                          imprimir("estoy imprimiendo!!");
+                          print('hola');
+                        },
+                        child: const Text('1', style: TextStyle(fontSize: 28)),
+                      )))),   Container(
+                 
+                 
+
+
+                      height: 50,
+                      width: 40,
+                      margin: EdgeInsets.all(0.5),
+                      // color: Colors.black,
+                      child: Center(
+                          child: ButtonTheme(
+                              child: RaisedButton(
+                        onPressed: () {
+                          imprimir("estoy imprimiendo!!");
+                          print('hola');
+                        },
+                        child: const Text('1', style: TextStyle(fontSize: 28)),
+                      ))))
+                  ],
+                ),
+              
+
 
           ],
         ),
